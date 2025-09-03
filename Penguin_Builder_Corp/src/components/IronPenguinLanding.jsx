@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "./assets/Final_logo_Iron_Pen.png"
 
 export default function IronPenguinLanding() {
   return (
@@ -7,7 +8,7 @@ export default function IronPenguinLanding() {
         {/* Hero headline */}
         <section className="mt-10 text-center">
           <img
-            src="src/assets/Final logo Iron Pen.png"
+            src={Logo}
             alt="Iron Penguin Builders Logo"
             className="mx-auto max-w-xs md:max-w-sm lg:max-w-md h-auto"
           />
