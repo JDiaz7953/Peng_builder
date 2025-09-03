@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./assets/Final_logo_Iron_Pen.png"
+import Logo from "/public/assets/Final_logo_Iron_Pen.png"
 
 export default function IronPenguinLanding() {
   return (
